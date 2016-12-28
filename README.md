@@ -15,9 +15,3 @@ Inside the directory, `run npm install`.
 #Usage
 
 `gulp`
-=======
-# Installation
-npm install
-# Run
-gulp
->>>>>>> 8bb07f00a6e80c3d6e807f40a3db1bba64e3ff5d
