@@ -1,4 +1,4 @@
 # Installation
-        npm install
+npm install
 # Run
-    gulp
+gulp
