@@ -1,1 +1,4 @@
-# MyStartUpProject
+# Installation
+        npm install
+# Run
+    gulp
