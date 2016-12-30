@@ -1,16 +1,16 @@
 var gulp = require('gulp');
 var sass = require('gulp-sass');
+var sassLint = require('gulp-sass-lint');
 var autoPrefixer = require('gulp-autoprefixer');
 var browserSync = require('browser-sync').create();
 
 gulp.task('styles', function() {
     gulp.src('./css/style.scss')
-        .pipe(sass())
+        .pipe(sass.sync().on('error', sass.logError))
         .pipe(autoPrefixer())
         .pipe(gulp.dest('./css'))
         .pipe(browserSync.reload({stream:true}))
 });
-
 
 gulp.task('server', function() {
     browserSync.init({
