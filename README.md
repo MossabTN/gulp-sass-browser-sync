@@ -1,4 +1,4 @@
-# MyStartUpProject
+# MyStarter
 A starter project including full setup for GulpJS, SASS, AutoPrefixer & BrowserSync
 
 #System Preparation
